@@ -32,3 +32,5 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./target/doc
           force_orphan: true
+      - name: Generate GitHub pages
+        run: ./ci/generate_gh_pages.sh
